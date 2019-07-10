@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Library.LibraryShop">
+    <Position X="2.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAEAAAAQAAgCAMAAAgAEAGAkAABBADAIAAAAA=</HashCode>
+      <FileName>LibraryShop.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Borrows" />
+      <Property Name="Clients" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Library.Client">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAkAAAAAABIQAgEAgAAAAAAAAEAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Client.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Bottom" Position="0.226" />
+  </Class>
+  <Class Name="Library.Borrow">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIQAgAAAAgAAAAAAAAAABAAAAAIAAAAAAAAQ=</HashCode>
+      <FileName>Borrow.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Bottom" Position="0.169" />
+  </Class>
+  <Class Name="System.Object">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Interface Name="Library.IBorrow">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAgAAAAAAAAAAAAAAABAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>IBorrow.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Library.IClient">
+    <Position X="5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAABAAAAEAgAAAAAAAAEAAAAAAAAAAAAAg=</HashCode>
+      <FileName>IClient.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Library.Gender">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAABAAIAAAAAAACAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Gender.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
